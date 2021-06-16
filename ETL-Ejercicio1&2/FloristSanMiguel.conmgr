@@ -1,0 +1,141 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="FloristSanMiguel"
+  DTS:DTSID="{E54D5C7C-F8A7-40D2-88E0-2BEDE7759611}"
+  DTS:CreationName="FLATFILE">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:Format="Delimited"
+      DTS:LocaleID="1033"
+      DTS:HeaderRowDelimiter="_x000D__x000A_"
+      DTS:ColumnNamesInFirstDataRow="True"
+      DTS:RowDelimiter=""
+      DTS:TextQualifier="_x003C_none_x003E_"
+      DTS:CodePage="1252"
+      DTS:ConnectionString="C:\Users\a1299\OneDrive\Documentos\UDB\DM\Fiorella\SanMiguel_j20191007.csv">
+      <DTS:FlatFileColumns>
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="id"
+          DTS:DTSID="{7E981906-5A29-40C3-A405-2B401C7F948F}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="11"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Rosas"
+          DTS:DTSID="{592A64BF-16F2-41B6-AB98-076DD34A49E7}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="11"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Claveles"
+          DTS:DTSID="{178A3BF0-4D9A-41B1-B03D-1E100ADA9BD5}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="11"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Macetas"
+          DTS:DTSID="{97D953B5-986B-41EF-B1FB-A0EF5B9AA035}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="11"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Tierra"
+          DTS:DTSID="{04DFEE31-E9FD-41B9-8ACB-005152E30108}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="11"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Girasoles"
+          DTS:DTSID="{E3C4140E-C247-45BC-9B9D-1DFB1304387B}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="11"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Hortensia"
+          DTS:DTSID="{6F9800F4-9975-43C2-B5A1-93A55E2E30EF}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="11"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Globos"
+          DTS:DTSID="{C67CD48B-8542-4BBF-AE64-D893A971F3DB}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="11"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Tarjetas"
+          DTS:DTSID="{DA7A6A72-3CCB-4B01-8461-DED036A0FED7}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="11"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Orquideas"
+          DTS:DTSID="{78A605C2-8E7D-4165-8407-98276097DFEE}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="11"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Carmesi"
+          DTS:DTSID="{786CADC2-1838-487D-AAE8-028DFD4E74F3}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="11"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Lirios"
+          DTS:DTSID="{02F29FD4-B983-4636-B43B-05B7D82A1F2F}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="11"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Aurora"
+          DTS:DTSID="{BD2E71D6-2D9E-460B-A55C-E010F8DA694B}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="11"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Tulipanes"
+          DTS:DTSID="{BC9C0015-9D56-4424-B22C-87D30B1E01E6}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x000A_"
+          DTS:DataType="11"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Liston"
+          DTS:DTSID="{06D5CD15-2193-44FB-B389-29EFDA063C07}"
+          DTS:CreationName="" />
+      </DTS:FlatFileColumns>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
